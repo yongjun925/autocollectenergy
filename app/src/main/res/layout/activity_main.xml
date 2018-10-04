@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="蚂蚁森林自动收能量! \n 教程与源码地址："
+        android:text="蚂蚁森林自动收能量! \n 教程与源码地址：https://www.52pojie.cn/thread-803501-1-1.html"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

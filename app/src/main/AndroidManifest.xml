@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xposed.pyj.autocollectenergy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 作为xposed模块 -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+
+        <!-- 模块描述 -->
+        <meta-data
+            android:name="xposeddescription"
+            android:value="蚂蚁森林自动收能量" />
+
+        <!-- XposedBridgeApi的最低版本号 -->
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

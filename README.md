@@ -1,4 +1,4 @@
-# 自动收取蚂蚁森森能量
+# 自动收取蚂蚁森林能量
 
 安装环境：无需root  
 + VirtualXposed 0.13.0  https://vxposed.com/
